@@ -2,9 +2,16 @@
     display: flex;
     flex-direction: row;
     border-radius: 10px;
-    height: 120px;
-    width: 65vw; 
+    width: 100%; 
     border: 6px solid #C79603;
     margin-left: 20px;
     margin-bottom: 20px;
 }
+.card img {
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura do card */
+    height: 140px;    /* Mantém a proporção da imagem */
+    border-radius: 5px; /* Opcional: para bordas arredondadas */
+    
+  }
+  
+  
