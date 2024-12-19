@@ -1,17 +1,24 @@
 .card   {
     display: flex;
     flex-direction: row;
+    align-items: center; /* Centraliza o conteúdo interno verticalmente */
     border-radius: 10px;
-    width: 100%; 
     border: 6px solid #C79603;
-    margin-left: 20px;
-    margin-bottom: 20px;
+    margin: 10px;
+    overflow: hidden; /* Garante que o conteúdo não ultrapasse os limites */
+    width: 100%;
 }
 .card img {
     max-width: 100%; /* Garante que a imagem não ultrapasse a largura do card */
-    height: 140px;    /* Mantém a proporção da imagem */
-    border-radius: 5px; /* Opcional: para bordas arredondadas */
-    
+    height: 100%; /* Imagem ocupa toda a altura disponível do card */
+    object-fit: cover; /* Ajusta a imagem sem distorcer */
+    border-radius: 3px;
+  }
+  .title{
+    color: black;
+    font-size: 5ch;
+    font-family: 'Javanese Text', sans-serif;
+    margin-left: 20px;
   }
   
   
