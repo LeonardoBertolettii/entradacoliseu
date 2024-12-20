@@ -7,6 +7,20 @@ return(
         <img src={foto} alt='erro'/>
         <p className='title'>{nome}</p>
         <img src={pilar}/>
+        <div className='especs'>
+        <input className='titulo'/>
+            <input className='inVal'/>
+        </div>
+        <img src={pilar}/>
+        <div className='especs'>
+            <input className='titulo'/>
+            <input className='inVal'/>
+        </div>
+        <img src={pilar}/>
+        <div className='especs'>
+            <input className='titulo'/>
+            <input className='inVal'/>
+        </div>
     </div>
 )
 }

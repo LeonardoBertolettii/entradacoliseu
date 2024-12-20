@@ -9,12 +9,9 @@ function App() {
       <Card foto={ted2} nome='Passione'></Card>
       <Card foto={ted2} nome='Passione'></Card>
       <Card foto={ted2} nome='Passione'></Card>
-      <Card foto={ted2} nome='Passione'></Card>
-      <Card foto={ted2} nome='Passione'></Card>
+      <Card foto={ted2} nome='Roma'></Card>
+      <Card foto={ted2} nome='Passione' val3h="R$100"></Card>
     </div>
-      
-
   )
 }
-
 export default App
