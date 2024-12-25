@@ -16,3 +16,14 @@ html, body {
     padding: 10px; /* Espaço interno */
     width: 65vw;
 }
+.geral{
+  display: flex;
+  flex-direction: row;
+}
+.eros{
+  display: flex;
+  flex-direction: column;
+}
+.logo{
+  object-fit: fill;
+}
