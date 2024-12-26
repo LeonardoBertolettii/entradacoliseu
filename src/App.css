@@ -8,22 +8,35 @@ html, body {
 
 .Screen{
   display: flex;
-    flex-direction: column; /* Organiza os cards verticalmente */
-    justify-content: space-between; /* Adapta o espaço interno automaticamente */
+    flex-direction: column; 
+    justify-content: space-between; 
     align-items: center; /* Centraliza os cards horizontalmente */
-    height: 100vh; /* A altura do container ocupa toda a tela */
+    height: 100vh; 
     box-sizing: border-box; /* Inclui bordas e padding no tamanho total */
     padding: 10px; /* Espaço interno */
-    width: 65vw;
+    width: 70vw;
+}
+.ScreenEros{
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between; 
+    align-items: center; 
+    height: 100vh; /*vh é viewport height 100 representa 100% da altura da tela */
+    box-sizing: border-box; /* Inclui bordas e padding no tamanho total */
+    padding: 10px; /* Espaço interno */
+    flex: 1;
+    
+    
 }
 .geral{
   display: flex;
   flex-direction: row;
-}
-.eros{
-  display: flex;
-  flex-direction: column;
+  box-sizing: border-box;
+  padding: 10px;
+  width: 100vw;
 }
 .logo{
-  object-fit: fill;
+  width: 100%; 
+    height: auto; 
+    object-fit: cover; 
 }

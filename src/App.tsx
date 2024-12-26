@@ -15,7 +15,7 @@ function App() {
         <Card foto={ted2} nome='Roma'></Card>
         <Card foto={ted2} nome='Passione'></Card>
       </div>
-      <div className='Screen'>
+      <div className='ScreenEros'>
         <img src={logo} className='logo'></img>
         <CardEros></CardEros>
       </div>
