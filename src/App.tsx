@@ -17,7 +17,7 @@ function App() {
       </div>
       <div className='ScreenEros'>
         <img src={logo} className='logo'></img>
-        <CardEros></CardEros>
+        <CardEros nome="Eros"></CardEros>
       </div>
     </div>
   )

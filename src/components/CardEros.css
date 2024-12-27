@@ -1,7 +1,7 @@
 .CardEros{
     display: flex;
     flex-direction: column;
-    
+    align-items: center;
     border-radius: 10px;
     border: 6px solid #C79603;
     margin: 10px;
@@ -13,4 +13,14 @@
     width: 100%; 
     height: auto; 
     object-fit: cover; 
+    max-height: fit-content;
+}
+.titleE{
+    color: black;
+    font-size: 5ch;
+    font-family: 'Javanese Text', sans-serif;
+    
+  }
+.valEros{
+    justify-content: space-around;
 }
