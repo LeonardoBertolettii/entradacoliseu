@@ -11,8 +11,8 @@ function CardEros({foto,nome}:any){
                 <input className="inTitle"/>
                 <input className="inVal"/>
             </div>
+            <div className="hr"/>
         </div>
     )
 }
-
 export default CardEros;
