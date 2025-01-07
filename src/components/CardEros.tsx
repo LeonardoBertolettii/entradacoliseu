@@ -11,7 +11,13 @@ function CardEros({foto,nome}:any){
                 <input className="inTitle"/>
                 <input className="inVal"/>
             </div>
-            <div className="hr"/>
+            <div className="hr">
+
+            </div>
+            <div className="valEros">
+                <input className="inTitle"/>
+                <input className="inVal"/>
+            </div>
         </div>
     )
 }
