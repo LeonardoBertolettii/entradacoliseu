@@ -37,6 +37,6 @@ html, body {
 }
 .logo{
   width: 100%; 
-    height: auto; 
-    object-fit: cover; 
+    height:20vh; 
+    object-fit:fill; 
 }

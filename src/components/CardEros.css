@@ -4,32 +4,33 @@
     align-items: center;
     border-radius: 10px;
     border: 6px solid #C79603;
-    justify-content: space-around;
     margin: 10px;
     overflow: hidden; 
     width: 100%;
     height: 100%;
 }
 .fotos{
-    width: 100%; 
-     border-radius: 3px;
-    object-fit: cover; 
-    max-height: fit-content;
+    width: 100%; /* Largura responsiva */
+    border-radius: 3px; /* Bordas arredondadas */
+    height: min-content; /* Define a altura fixa */
+    object-fit: fill;  
 }
 .titleE{
     color: black;
     font-size: 5ch;
     font-family: 'Javanese Text', sans-serif;
-    height: 10px;
+    height: fit-content;
     
   }
 .valEros{
-    justify-content: space-around;
+    display: flex; 
+    justify-content: space-between; 
+    width: 100%; 
 }
 .hr{
     border: 1px solid #C79603;
     width: 90%;
-    
+    margin: 10px;
     border-radius: 10px;
 }
 

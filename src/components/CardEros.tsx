@@ -1,6 +1,6 @@
 
 import "./CardEros.css"
-import test from "../assets/imagens/MOTEL COLISEU/Found_2047648_10489713.jpg"
+import test from "../assets/imagens/MOTEL COLISEU/Found_1919072_7862333.jpg"
 
 function CardEros({foto,nome}:any){
     return(
@@ -12,13 +12,19 @@ function CardEros({foto,nome}:any){
                 <input className="inVal"/>
             </div>
             <div className="hr">
-
+            </div>
+            <div className="valEros">
+                <input className="inTitle"/>
+                <input className="inVal"/>
+            </div>
+            <div className="hr">
             </div>
             <div className="valEros">
                 <input className="inTitle"/>
                 <input className="inVal"/>
             </div>
         </div>
+        
     )
 }
 export default CardEros;
