@@ -1,19 +1,33 @@
-import './App.css'
-import Card from './components/Card'
-import ted2 from './assets/imagens/Passione/Found_3608608_9215881.jpg';
+import './App.css';
+import { useState, useEffect } from 'react';
+import Card from './components/Card';
 import CardEros from './components/CardEros';
-import logo from './assets/imagens/MOTEL COLISEU/logo coliseu.png'
+import logo from './assets/imagens/MOTEL COLISEU/logo coliseu.png';
+
+// Importa imagens dinamicamente
+const imagensPassione = Object.values(
+  import.meta.glob('./assets/imagens/MOTEL COLISEU/*.{png,jpg,jpeg,svg}', { eager: true })
+).map((mod) => mod.default); // Garante que estamos acessando o caminho da imagem
 
 function App() {
+  const [imagemAtual, setImagemAtual] = useState(0); // Índice da imagem visível no momento
+
+  useEffect(() => {
+    const intervalo = setInterval(() => {
+      setImagemAtual((prev) => (prev + 1) % imagensPassione.length); // Alterna para a próxima imagem
+    }, 5000); // Troca a cada 3 segundos
+
+    return () => clearInterval(intervalo); // Limpa o intervalo ao desmontar o componente
+  }, []);
 
   return (
     <div className='geral'>
       <div className='Screen'>
-        <Card foto={ted2} nome='Imperial'></Card>
-        <Card foto={ted2} nome='Maximus'></Card>
-        <Card foto={ted2} nome='Palace'></Card>
-        <Card foto={ted2} nome='Roma'></Card>
-        <Card foto={ted2} nome='Passione'></Card>
+        <Card foto={imagensPassione[imagemAtual]} nome='Imperial'></Card>
+        <Card foto={imagensPassione[imagemAtual]} nome='Maximus'></Card>
+        <Card foto={imagensPassione[imagemAtual]} nome='Palace'></Card>
+        <Card foto={imagensPassione[imagemAtual]} nome='Roma'></Card>
+        <Card foto={imagensPassione[imagemAtual]} nome='Passione'></Card>
       </div>
       <div className='ScreenEros'>
         <img src={logo} className='logo'></img>
