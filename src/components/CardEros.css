@@ -10,10 +10,9 @@
     height: 100%;
 }
 .fotos{
-    width: 100%; /* Largura responsiva */
-    border-radius: 3px; /* Bordas arredondadas */
-    height: min-content; /* Define a altura fixa */
-    object-fit: fill;  
+    width: 100%;
+    max-height: 350px;
+    border-radius: 3px;   
 }
 .titleE{
     color: black;

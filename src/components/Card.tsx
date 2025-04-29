@@ -4,19 +4,19 @@ import pilar from '../assets/imagens/pilar.png';
 function Card({foto,nome}:any) {
 return(
     <div className="card">
-        <img src={foto} alt='erro'/>
+        <img className='fts' src={foto} alt='erro'/>
         <p className='title'>{nome}</p>
-        <img src={pilar}/>
+        <img className='pilar' src={pilar}/>
         <div className='especs'>
         <input className='inTitle'/>
             <input className='inVal'/>
         </div>
-        <img src={pilar}/>
+        <img className='pilar' src={pilar}/>
         <div className='especs'>
             <input className='inTitle'/>
             <input className='inVal'/>
         </div>
-        <img src={pilar}/>
+        <img className='pilar' src={pilar}/>
         <div className='especs'>
             <input className='inTitle'/>
             <input className='inVal'/>

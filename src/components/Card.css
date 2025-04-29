@@ -9,15 +9,17 @@
     width: 100%;
     justify-content: space-between;
 }
-.card img {
+.pilar{
     max-width: 100%; 
     height: 100%; 
     object-fit: cover;
     border-radius: 5px;
-    
   }
-  .fotos{
-    
+  .fts{
+    width: 250px; 
+    height: 100%; 
+    object-fit: cover;
+    border-radius: 5px;
   }
   .title{
     color: black;
