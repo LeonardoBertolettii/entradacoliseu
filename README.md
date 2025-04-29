@@ -1,7 +1,8 @@
 # Sistema Interno - Motel Coliseu
 
 Este é um sistema interno desenvolvido para o Motel Coliseu.  
-O sistema exibe informações de suítes e imagens em um painel interativo.
+O objetivo é exibir aos clientes, na entrada do motel, as imagens e valores das suítes disponíveis.  
+As informações podem ser alteradas a qualquer momento.
 
 ## Tecnologias utilizadas
 
