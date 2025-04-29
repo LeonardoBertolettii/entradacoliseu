@@ -2,11 +2,11 @@ import './App.css';
 import { useState, useEffect } from 'react';
 import Card from './components/Card';
 import CardEros from './components/CardEros';
-import logo from './assets/imagens/MOTEL COLISEU/logo coliseu.png';
+import logo from './assets/imagens/logo coliseu.png';
 
-// Importa imagens dinamicamente
+
 const imagensPassione = Object.values(
-  import.meta.glob('./assets/imagens/MOTEL COLISEU/*.{png,jpg,jpeg,svg}', { eager: true })
+  import.meta.glob('./assets/imagens/Passione/*.{png,jpg,jpeg,svg}', { eager: true })
 ).map((mod) => mod.default); // Garante que estamos acessando o caminho da imagem
 
 function App() {

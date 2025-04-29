@@ -1,5 +1,5 @@
 import './Card.css'
-import pilar from '../assets/imagens/Passione/pilar.png';
+import pilar from '../assets/imagens/pilar.png';
 
 function Card({foto,nome}:any) {
 return(
